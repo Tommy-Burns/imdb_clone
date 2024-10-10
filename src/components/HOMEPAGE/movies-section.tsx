@@ -1,8 +1,9 @@
 import React from 'react';
 import MovieCard from './movie-card';
+import { Movie } from '@/types/types';
 
 interface MovieProps{
-  movies: any[];
+  movies: Movie[];
 }
 
 
